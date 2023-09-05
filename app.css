@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .pricing-plan{
     height: 40rem;
@@ -21,6 +22,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    border: 1px solid #63acfb ;
 }
 .pricing-img{
     width: 10rem;
@@ -29,35 +31,45 @@
 
 .pricing-header{
     color: #97a0a7;
+    font-size: medium;
 }
 .pricing-features{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    height: 14%;
+    height: 6rem;
+    width: 12rem;
+    color: #0472fc;
 }
 .pricing-features-item{
     list-style: none;
+    font-size: smaller;
+    text-align: center;
 }
 .pricing-price{
     color: #047af9;
     font-size: 30px;
     font-weight: 700;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .pricing-button{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 1px solid #c4e3ff;
     color: #0472fc;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
-    width: 120px;
+    height: 50px;
+    width: 130px;
 }
-
+.pricing-button:hover{
+    background-color: #a2eafb;
+    transition: all 1.5s;
+}
+.is-featured{
+    color: white;
+    background-color: #63acfb;
+}
 a{
     text-decoration: none;
 }
